@@ -1,0 +1,52 @@
+/* slide: s2-first-rules · indicator 1 · end state */
+/* Little Lemon — style.css
+   Built in class order. Each block is added on one deck section. */
+
+/* ===== 1. A first rule: element selectors (§2) ===== */
+/* ===== Ganti Font ===== */
+body {
+  font-family: "Trebuchet MS", Arial, sans-serif;
+  color: #fae2d7;
+  background-color: #F4E4C1;
+  background-image: url("timur tengah.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  margin: 0;
+}
+
+h1 {
+  color: #eed6cb;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+h2 {
+  color: #f3e6e0;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+header p:first-child {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+header p:first-child a {
+  color: #fadacc;
+  text-decoration: none;
+}
+
+main > div p:last-child {
+  font-weight: bold;
+}
+
+nav a {
+  color: #f5e5dd;
+}
+
+th {
+  color: #ffdecf;
+}
+
+td {
+  color: #ffe5d9;
+}
